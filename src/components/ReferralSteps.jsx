@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react';
 import ReferralModal from './ReferralModal';
-import NoteIcon from '../assets/note-icon.svg';
+import noteIcon from '../assets/note-icon.svg';
 import addIcon from '../assets/add-icon.svg';
 import walletIcon from '../assets/wallet-icon.svg';
 
@@ -76,7 +76,7 @@ function ReferralSteps() {
               transform transition-transform hover:scale-105">
               <div className="flex flex-col items-center text-center max-w-[200px]">
                 <div className="mb-4">
-                <img src={NoteIcon} alt="icon" className="h-12 w-12"  />
+                <img src={noteIcon} alt="icon" className="h-12 w-12"  />
                 </div>
                 <p className="text-gray-800 text-sm">
                   Earn rewards once your referral joins an Accredian program.
