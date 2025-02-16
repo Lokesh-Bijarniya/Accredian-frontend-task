@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000/api', 
+  baseURL: 'https://accredian-backend-task-42x9.onrender.com/api', 
   headers: {
     'Content-Type': 'application/json',
   },
