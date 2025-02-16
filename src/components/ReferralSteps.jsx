@@ -1,64 +1,7 @@
-// import React from "react";
-// import ReferImg from '../assets/refer.svg';
-// import NoteIcon from '../assets/note-icon.svg';
-// import addIcon from '../assets/add-icon.svg';
-// import walletIcon from '../assets/wallet-icon.svg';
-
-// const ReferralSteps = () => {
-//   return (
-//     <div className="py-12 bg-blue-100">
-//       <h2 className="text-center text-2xl font-bold mb-8">
-//         How Do I <span className="text-blue-500">Refer?</span>
-//       </h2>
-//       <div className="relative flex justify-center">
-//         {/* Main Image */}
-//         <img src={ReferImg} alt="Refer Illustration" className="h-1/2 w-3/4" />
-
-//         {/* Circle Content 1*/}
-//         <div className="absolute flex flex-col items-center justify-center bg-blue-50 w-48 h-48 rounded-full shadow-lg left-78 top-22 ">
-//         <img src={addIcon} alt="icon" className="h-12 w-12 mt-2" />
-//           <p className="text-center text-sm font-medium mt-6">
-//             Submit referrals easily via our website's referral section.
-//           </p>
-//         </div>
-
-//         {/* Circle Content 2*/}
-//         <div className="absolute flex flex-col items-center gap-4 bg-blue-50 w-48 h-48 rounded-full shadow-lg left-154 top-22 ">
-//           <img src={NoteIcon} alt="icon" className="h-12 w-12 mt-8"  />
-//           <p className="text-center text-sm font-medium mt-2">
-//             Earn rewards once your referral joins an Accredian program.
-//           </p>
-//         </div>
-
-
-
-//         {/* Circle Content 3*/}
-//         <div className="absolute flex flex-col items-center justify-center blue-50bg- w-48 h-48 rounded-full shadow-lg right-82 top-22">
-//         <img src={walletIcon} alt="icon" className="h-12 w-12 mt-2"  />
-//           <p className="text-center text-sm font-medium mt-6">
-//             Referrer receive a bonus 30 days after program enrollment.
-//           </p>
-//         </div>
-//       </div>
-      
-//       <div className="flex justify-center mt-12">
-//         <button className="bg-blue-500 text-white py-2 px-6 rounded-lg shadow-lg hover:bg-blue-600 transition">
-//           Refer Now
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ReferralSteps;
-
-
-
-
 
 import React, {useState} from 'react';
 import ReferralModal from './ReferralModal';
-import NoteIcon from '../assets/note-icon.svg';
+import NoteIcon from '../assets/Note-icon.svg';
 import addIcon from '../assets/add-icon.svg';
 import walletIcon from '../assets/wallet-icon.svg';
 
