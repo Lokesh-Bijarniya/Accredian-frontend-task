@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react';
 import ReferralModal from './ReferralModal';
-import NoteIcon from '../assets/Note-icon.svg';
+import NoteIcon from '../assets/note-icon.svg';
 import addIcon from '../assets/add-icon.svg';
 import walletIcon from '../assets/wallet-icon.svg';
 
