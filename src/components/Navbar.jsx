@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center bg-white shadow-md px-4 py-2 lg:px-8 md:w-3/4 md:mx-auto">
+    <div className="flex justify-between items-center bg-white px-4 py-2 lg:px-8 md:w-3/4 md:mx-auto">
       {/* Left Side: Logo and Courses Button */}
       <div className="flex items-center gap-4">
         <img src={Logo} alt="Logo" className="h-16 w-24" />
